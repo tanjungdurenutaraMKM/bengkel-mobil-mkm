@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT. Tanjung Duren Utara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { 
+      font-family: 'Poppins', sans-serif; 
+    }
+    /* gunakan hero image dari kode lama sesuai permintaan */
+    .hero-bg {
+      background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AC9h4no1A9eCj6Nwo0wuQ64XpNjeHmi3RooMqNFqmxBxKYZtrM_tdYWGKsMHj-2DseKfiXBTxjOtyT_sX-0NbnOy68Yocv6ESfnCxw_LeUoRYZjogZe6tH2mtRPwVoZrfqOvvQ09YjvHLA=w408-h544-k-no');
+      background-size: cover;
+      background-position: center;
+      height: 500px; /* tinggi hero image */
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <!-- Logos (dari kode sebelumnya) -->
+        <div class="hidden sm:flex items-center gap-3">
+          <img src="https://scontent.fcgk3-2.fna.fbcdn.net/v/t1.15752-9/528139913_4171194199793921_562132188186193985_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=RzSFYLx_qGYQ7kNvwG-OPgd&_nc_oc=AdkN53-GWvjCuBjcN8zpgshZ9pJvYp4tf2fLatZzBHLbD0nHSU7d8rkCcai-idcI6gQ&_nc_ad=z-m&_nc_cid=1101&_nc_zt=23&_nc_ht=scontent.fcgk3-2.fna&oh=03_Q7cD3AG9s4U7unxVbBHonIe36UbeU13vHAfpe0oN6uxIgWggoA&oe=68C0DB22" alt="logo1" class="h-8 object-contain">
+          <img src="https://gunungmaskab.go.id/wp-content/uploads/2022/10/lpse.png" alt="logo2" class="h-8 object-contain">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7aPChu_nPQz7Kk35zyCHrHdMycG4nEp8aiA&s" alt="logo3" class="h-8 object-contain">
+          <img src="https://bppbj.jakarta.go.id/images/posting/large/8b88d1438fee8a1a565bd792cfad7b7b.jpg" alt="logo4" class="h-8 object-contain">
+        </div>
+
+        <div>
+          <a href="#beranda" class="text-2xl font-bold text-gray-900">PT. TANJUNG DUREN UTARA</a>
+          <p class="text-xs text-gray-500">Pengadaan Barang & Jasa • Sejak 2000</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#beranda" class="hover:text-gray-900">Beranda</a>
+        <a href="#tentang" class="hover:text-gray-900">Tentang Kami</a>
+        <a href="#legalitas" class="hover:text-gray-900">Legalitas</a>
+        <a href="#bidang" class="hover:text-gray-900">Bidang Usaha</a>
+        <a href="#galeri" class="hover:text-gray-900">Galeri</a>
+        <a href="#kontak" class="hover:text-gray-900">Kontak</a>
+      </nav>
+
+      <!-- mobile menu button -->
+      <div class="md:hidden">
+        <button id="btnMobile" class="text-gray-700 focus:outline-none">Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="beranda" class="hero-bg h-96 relative">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="container mx-auto px-6 h-full flex items-center">
+      <div class="relative z-10 max-w-3xl text-white">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4">PT. TANJUNG DUREN UTARA</h1>
+        <p class="mb-6 text-sm sm:text-base">Perusahaan pengadaan barang dan jasa lainnya yang berdiri sejak tahun 2000. Mitra terpercaya untuk instansi pemerintah dan swasta.</p>
+        <a href="#kontak" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-md">Hubungi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="py-16">
+    <div class="container mx-auto px-6 bg-white rounded-lg shadow-md -mt-20">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 items-center">
+        <div class="md:col-span-2">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">Company Overview</h2>
+          <p class="text-gray-700 mb-3"><strong>PT. TANJUNG DUREN UTARA</strong> didirikan di Jakarta, Indonesia untuk menjawab tantangan perkembangan industri modern yang semakin kompleks dan cepat. Kebutuhan yang terus meningkat akan pengadaan barang dan jasa mendorong lahirnya perusahaan ini sebagai mitra strategis yang dapat diandalkan.</p>
+
+          <p class="text-gray-700 mb-3">Berdiri sejak tahun 2000, perusahaan ini dibentuk oleh tim profesional yang memiliki pengalaman luas dalam teknik pemasaran serta pengelolaan proyek. Kami fokus pada pengadaan barang dan jasa lainnya, yang terdiri dari 21 sub-bidang pekerjaan. Layanan kami telah menjangkau berbagai instansi, baik pemerintah maupun swasta.</p>
+
+          <p class="text-gray-700 mb-3">Didukung oleh tim teknisi dan manajemen yang berpengalaman, kami selalu berupaya membantu klien meningkatkan performa dan efisiensi, sekaligus memastikan kepatuhan terhadap regulasi yang berlaku. Kami berkomitmen memberikan solusi terbaik yang sesuai dengan kebutuhan dan kepuasan pelanggan.</p>
+
+          <div class="mt-6">
+            <h3 class="text-lg font-semibold text-gray-800">Visi</h3>
+            <p class="text-gray-600">Menjadi perusahaan perdagangan dan jasa lainnya yang terpercaya, dikenal secara nasional, serta mampu memenuhi pasokan kebutuhan konsumen dengan profesionalisme tinggi.</p>
+
+            <h3 class="text-lg font-semibold text-gray-800 mt-4">Misi</h3>
+            <ul class="list-disc list-inside text-gray-600 space-y-2 mt-2">
+              <li>Memberikan nilai tambah dan kepuasan kepada pelanggan.</li>
+              <li>Menyediakan layanan pengadaan barang dan jasa dengan kualitas terjamin serta harga yang kompetitif.</li>
+              <li>Berperan aktif, kreatif, dan inovatif dalam mendukung program pemerintah demi kemajuan ekonomi nasional.</li>
+              <li>Mematuhi seluruh peraturan dan standar yang ditetapkan pemerintah.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <img src="https://anugerahteknikasia.com/wp-content/uploads/2020/12/iconvisimisi.png" alt="Ilustrasi Perusahaan" class="max-w-xs rounded-lg shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legalitas & Bidang Usaha -->
+  <section class="container mx-auto px-6 mb-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-xl font-bold text-gray-800 mb-4">Legalitas Perusahaan</h3>
+        <p><strong>Nama Usaha:</strong> PT TANJUNG DUREN UTARA</p>
+        <p><strong>Alamat:</strong> Jl.seketaris no:  1 015/007 Tanjung Duren Utara ,jakarta barat 11470 ,kelurahan : Tanjung Duren Utara,Kecamatan : Grogol Petamburan</p>
+        <p><strong>NIB:</strong> 1703220009539</p>
+        <p><strong>NPWP:</strong> 63.716.089.6-036.000</p>
+        <p><strong>Status:</strong> Usaha Kecil</p>
+        <div class="mt-4">
+          <img src="https://scontent.fcgk3-4.fna.fbcdn.net/v/t1.15752-9/528086271_1244840540757533_1081219884130822724_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=GowqQjgT1kwQ7kNvwGAyLi6&_nc_oc=AdlKR3lxVxidfgjQ1850FzZ8Pj2L2CyUyj0y-Q5_eNebO03dHAeN0-H0gWq3mM5f47g&_nc_ad=z-m&_nc_cid=1101&_nc_zt=23&_nc_ht=scontent.fcgk3-4.fna&oh=03_Q7cD3AGKR2csdr3ceny6bLOp46Dj2qxv1HtugiX7gAOkZbQoRQ&oe=68BB9BD0" alt="legal-image" class="mt-4 w-full rounded">
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-xl font-bold text-gray-800 mb-4">Bidang Usaha</h3>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+          <li>Perdagangan Besar Berbagai Macam Barang (KBLI 46900)</li>
+          <li>Aktivitas Konsultasi Manajemen</li>
+          <li>Jasa Event &amp; Pameran (MICE)</li>
+          <li>Perawatan Taman, Reparasi Mobil &amp; Komputer</li>
+          <li>Perdagangan Alat Tulis, Material Bangunan, dan lainnya</li>
+          <li>Pengadaan Barang dan jasa lainnya (21 sub-bidang)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="py-12 bg-white">
+    <div class="container mx-auto px-6">
+      <h3 class="text-2xl font-bold text-gray-800 mb-6"></h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <img src="https://scontent.fcgk3-2.fna.fbcdn.net/v/t1.15752-9/527220534_1095840221996017_5102050048273457717_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=7UMW-tdikoAQ7kNvwFYYeKK&_nc_oc=AdlSzjy77CTMXfpnDjCn1JtlT7p6jXJGLvyygHjaW_-bZWYCwZklEMEB03f4iJHYaU4&_nc_ad=z-m&_nc_cid=1101&_nc_zt=23&_nc_ht=scontent.fcgk3-2.fna&oh=03_Q7cD3AFBQctvzLmPbaKgWLFzi9x-A4i0DoIyzywEPRWLl37SYA&oe=68BCF083" 
+            alt="foto1" 
+            class="w-full max-w-full object-contain rounded shadow">
+        <img src="https://scontent.fcgk3-2.fna.fbcdn.net/v/t1.15752-9/527677141_731354906454017_4387235627098816321_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=CdvV4wvTEO4Q7kNvwHpNWEs&_nc_oc=AdmaYjkzHHf0z0Rli0PIPkS8CG8ZDEtld7VA7l3O14Tx16OqBgqcbyUMYo2KYu6zieE&_nc_ad=z-m&_nc_cid=1101&_nc_zt=23&_nc_ht=scontent.fcgk3-2.fna&oh=03_Q7cD3AEIsUuLzzalL5Tf9eCxPEUXTvZHUQGAYtIXwTR7VNPd9g&oe=68C23CC4" 
+            alt="foto2" 
+            class="w-full max-w-full object-contain rounded shadow">
+        <img src="https://scontent.fcgk3-1.fna.fbcdn.net/v/t1.15752-9/528192878_1400322937859719_9061407657507392495_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=oilIQDuSfd0Q7kNvwGPgHLn&_nc_oc=Adm6wij4dZTBiEHtx7Qu_LAEvBqo6F8S1FBkOiQtM3QcasGx466sVkoIcaKCMzip_-A&_nc_ad=z-m&_nc_cid=1101&_nc_zt=23&_nc_ht=scontent.fcgk3-1.fna&oh=03_Q7cD3AE-JSDGIAcsX8WtMtiaKRf2KD1kMYejiITHXGyt5gUZ0A&oe=68C236D1" 
+            alt="foto3" 
+            class="w-full max-w-full object-contain rounded shadow">
+        <img src="https://scontent.fcgk3-3.fna.fbcdn.net/v/t1.15752-9/526552212_1442637337068095_2892909453437538260_n.png?stp=dst-png_p480x480&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Z9kKBuBOqukQ7kNvwGcREsI&_nc_oc=AdmcNzomSgH4rdhR6ywQQNKwpDPYnn_Ic9kKm0Gys9vOnY75TDyyoRW1K2xsHtzRHyI&_nc_ad=z-m&_nc_cid=1101&_nc_zt=23&_nc_ht=scontent.fcgk3-3.fna&oh=03_Q7cD3AGAjFBkQzsQOUhrANOb2yH16kQrZ4ujMK40i2ZVXih5wA&oe=68C248F4" 
+            alt="foto4" 
+            class="w-full max-w-full object-contain rounded shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak & Mitra -->
+  <section id="kontak" class="py-12">
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2 bg-white rounded-lg shadow p-6">
+          <h3 class="text-2xl font-bold mb-4">Kontak Kami</h3>
+          <p class="mb-2"><strong>Email:</strong> tanjungdurenutara.pt@gmail.com</p>
+          <p class="mb-2"><strong>Telepon:</strong> Telepon office:02156967541 - 0215637015,Mobile Office :+62 815-1112-9941</p>
+
+          <h4 class="mt-6 font-semibold">Mitra Project</h4>
+          <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+            <li>Jaya Property – Tangerang</li>
+            <li>PT Tangkal Jati Utama – Tangsel, Depok</li>
+            <li>PT Anugrah Rayni Sentosa – Jakut</li>
+            <li>PT Pugar Suh Kencana – Jakbar</li>
+            <li>PT Pilar Abdi Wijaya – Depok</li>
+            <li>PT Putra Sinar Fajar – Jaktim</li>
+            <li>Telaga Kahuripan – Bogor</li>
+            <li>PT Mitra Bangun Cipta – Jakut</li>
+            <li>Serpong Jaya – Tangsel</li>
+            <li>Pemprov DKI – Tanjung Duren, Slipi, Krukut</li>
+            <li>RSAB Harapan Kita – Jakbar</li>
+            <li>Kementerian Pertanian – Jakarta Selatan</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6">
+          <h3 class="text-xl font-bold mb-4">Lokasi: </h3>
+          <p class="text-gray-700 mb-4">
+            Jl. Sekretaris No.1 RT 15 RW 7, Tanjung Duren Utara, Jakarta Barat
+          </p>
+          <div class="grid grid-cols-1 gap-4">
+            <img src="https://scontent.fcgk3-1.fna.fbcdn.net/v/t1.15752-9/526344889_742780431716987_4186325459930293264_n.png?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ZyTcakisYfkQ7kNvwGMS27Y&_nc_oc=AdlmRiqaEiyGLb9hhDO3A2S5AS3ZRMwD2jfS3aBwfw808GXcvITwVAX0SFnKjVQpwng&_nc_ad=z-m&_nc_cid=1101&_nc_zt=23&_nc_ht=scontent.fcgk3-1.fna&oh=03_Q7cD3AEmgKNG8UDdew0pmb3HdHLfXrQTg55jnK61lzoRek0Evg&oe=68BBA587"
+                 alt="g1"
+                 class="w-64 h-40 object-cover rounded shadow-md mx-auto">
+            <img src="https://scontent.fcgk3-4.fna.fbcdn.net/v/t1.15752-9/527552500_1250286956385889_4639427625186217904_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=-qoztk75Ld8Q7kNvwGfAJxT&_nc_oc=AdkOx4pKC1o1DnmUhtXYu6uWbdpo6EfwRZSt4Cd_pgA2mEvmNIQairkcRf0nfXpOv8k&_nc_ad=z-m&_nc_cid=1101&_nc_zt=23&_nc_ht=scontent.fcgk3-4.fna&oh=03_Q7cD3AHH-giAjM5jODhhnR8I26RzagG9g3Hhw4BpFLWo4oN8kQ&oe=68BB9A73"
+                 alt="g2"
+                 class="w-64 h-40 object-cover rounded shadow-md mx-auto">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- === TUTUP SECTION DI SINI, BARU FOOTER DI BAWAH === -->
+
+  <!-- Footer (full background hitam) -->
+  <footer class="bg-gray-900 text-white py-10">
+    <div class="w-full max-w-screen-xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+        <!-- Company Info -->
+        <div>
+          <h2 class="text-lg font-bold">PT. TANJUNG DUREN UTARA</h2>
+          <p class="mt-2 text-sm">
+            Jl. Sekretaris No.1 RT 15 RW 7, Tanjung Duren Utara, Jakarta Barat
+          </p>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h3 class="font-semibold mb-2">Service</h3>
+          <ul class="space-y-1 text-sm">
+            <li>Pengadaan</li>
+            <li>Manajemen Proyek</li>
+            <li>Support</li>
+          </ul>
+        </div>
+
+        <!-- Info -->
+        <div>
+          <h3 class="font-semibold mb-2">Info</h3>
+          <ul class="space-y-1 text-sm">
+            <li>Legalitas</li>
+            <li>Bidang Usaha</li>
+            <li>Galeri</li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h3 class="font-semibold mb-2">Contact</h3>
+          <p class="text-sm leading-relaxed">
+            Telepon office: 021.56967541 / 021.5637015<br>
+            Mobile: +62 815-1112-9941<br>
+            Email: tanjungdurenutara.pt@gmail.com
+          </p>
+
+          <h3 class="font-semibold mt-4 mb-2">Social</h3>
+          <div class="flex gap-4 text-sm">
+            <a href="#" class="hover:underline">Facebook</a>
+            <a href="#" class="hover:underline">Instagram</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom -->
+      <div class="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-300">
+        © 2025 PT. Tanjung Duren Utara. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // simple mobile menu toggle (dummy alert)
+    const btn = document.getElementById('btnMobile');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        alert('Gunakan navigasi di atas (desktop) atau tambahkan menu mobile jika perlu.');
+      });
+    }
+  </script>
+</body>
+</html>
